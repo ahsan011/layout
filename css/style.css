@@ -1,0 +1,576 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+
+.container {
+	
+	font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+	width: 100%;
+	float: left;
+
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    display: inline-flex;
+    align-items: center;
+    height: 70px;
+}
+.logo img {
+    width: 120px;
+    height: 140px;
+}
+
+.menu {
+    width: 60%;
+    float: left;
+
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+    margin: 10px;
+    color: #fff;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.social-icon{
+	width: 20%;
+	float: left;
+
+}
+.social-icon ul {
+    list-style: none;
+    padding: 12px;
+
+   
+}
+
+.social-icon ul li {
+    display: inline-block;
+    margin: 5px;
+    transition: 0.4s ease;
+}
+
+.social-icon ul li a {
+
+}
+
+.fa.fa-facebook {
+    background-color: #45629D;
+    color: white;
+    padding: 4px 6px;
+}
+
+.fa.fa-youtube {
+  background-color: #F50000;
+    padding: 4px 6px;
+    color: #fff;
+
+}
+
+.fa.fa-twitter{
+	background-color: #1DA1F3;
+    color: white;
+    padding: 4px;
+
+}
+
+.fa.fa-google-plus{
+	background-color: #CE4331;
+    color: white;
+    padding: 3px;
+
+}
+
+.fa.fa-sign-in{
+
+}
+.social-icon ul li:hover{
+	transform: rotate(360deg);
+}
+
+.image-section {
+    width: 100%;
+    float: left;
+    background-image: url(../img/keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.image-holder {
+    background-color: #a9a9a9;
+    width: 500px;
+    height: 360px;
+    margin: 150px 322px;
+    border-radius: 20px;
+    box-shadow: 6px -5px 11px #68BE25;
+}
+.image-content {
+    padding: 36px;
+}
+.image-content h2 {
+    text-transform: uppercase;
+    font-size: 44px;
+    text-align: center;
+    padding: 4px;
+    margin-top: 30px;
+}
+.image-content h5 {
+    margin-top: 43px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.img-btn {
+    padding: 10px;
+    margin-top: 12px;
+    color: white;
+    background-color: #68BE25;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 0.4s ease;
+    text-transform: uppercase;
+    margin-left: 31px;
+
+}
+.img-btn {
+    padding: 10px;
+    margin-top: 12px;
+    color: white;
+    background-color: #68BE25;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 0.4s ease;
+    text-transform: uppercase;
+    margin-left: 31px;
+}
+.information {
+    width: 100%;
+    float: left;
+    margin: 60px auto;
+}
+.information-one {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.fa.fa-check {
+    background-color: #647BD1;
+    color: white;
+    border-radius: 60px;
+    padding: 20px;
+}
+.information i {
+    font-size: 70px;
+    margin-bottom: 25px;
+
+}
+
+.information p {
+    padding: 15px;
+}
+
+.info a {
+    text-decoration: none;
+    background-color: #68BE25;
+    padding: 5px;
+    border: 2px solid #68BE25;
+    border-radius: 5px;
+    color: white;
+    transition: 0.4s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.information-two {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+
+.fa.fa-map-marker {
+	background-color: #53AC4F;
+    color: white;
+    border-radius: 60px;
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 75px;
+    vertical-align: middle;
+    font-size: 57px;
+    
+}
+
+.information-three{
+	width: 25%;
+    float: left;
+    text-align: center;
+
+}
+.fa.fa-moneybill{
+	background-color: #53AC4F;
+    color: white;
+    border-radius: 60px;
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 75px;
+    vertical-align: middle;
+    font-size: 57px;
+	
+}
+
+.information-four{
+	width: 25%;
+    float: left;
+    text-align: center;
+}
+.fa.fa-user-plus{
+	background-color: #97E16B;
+    color: white;
+    border-radius: 60px;
+    padding: 20px;
+    height: 70px;
+    width: 70px;
+    font-size: 60px;
+    vertical-align: middle;
+    line-height: 69px;
+
+}
+
+.invest {
+    width: 100%;
+    float: left;
+    margin: 25px auto;
+}
+.invest-one {
+    width: 45%;
+    float: left;
+    background-color: #BACED7;
+    height: 250px;
+}
+.invest-one h1 {
+    padding: 33px 0px 0px;
+    text-align: center;
+
+}
+
+.invest-one ul {
+    list-style: none;
+    margin: 10px 0px 20px;
+}
+
+.invest-one ul li {
+
+}
+.far.fa-dot-circle {
+    color: green;
+}
+.invest h5 {
+    color: black;
+}
+.invest a {
+    text-decoration: none;
+    background-color: #68BE25;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 104px;
+    color: white;
+    transition: 0.4s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.invest-two {
+    width: 45%;
+    float: left;
+    background-color: #BACED7;
+    margin-left: 10%;
+    height: 250px;
+}
+
+.invest-two h1 {
+    padding: 33px 0px 0px;
+    text-align: center;
+}
+
+.invest-two ul {
+    list-style: none;
+    margin: 10px 0px 20px;
+}
+.invest-two ul li {
+
+}
+
+.far.fa-dot-circle {
+    color: green;
+    
+}
+
+.invest a  {
+    text-decoration: none;
+    background-color: #68BE25;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 104px;
+    color: white;
+    transition: 0.4s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+
+.blog-title {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.blog {
+    width: 100%;
+    float: left;
+    margin: 25px auto;
+}
+
+.blog-one {
+    width: 45%;
+    float: left;
+    text-align: left;
+}
+.blog-one h1 {
+    color: #39F;
+}
+.blog-one p {
+    margin: 17px auto;
+}
+
+.blog a {
+    text-decoration: none;
+    background-color: #68BE25;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: 0.4s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.blog-break {
+    width: 10%;
+    float: left;
+}
+
+.blog-two {
+    width: 45%;
+    float: left;
+    text-align: left;
+    margin-left: 10%;
+}
+.blog-two h1 {
+    color: #39F;
+}
+.blog-two p {
+    margin: 17px auto ;
+}
+.blog a {
+    text-decoration: none;
+    background-color: #68BE25;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.lent {
+    width: 100%;
+    float: left;
+
+}
+
+.lent-content {
+    text-align: center;
+    background-color: #DCDCDC;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+.lent-content h6 {
+    padding: 5px 0px;
+}
+
+.fa.fa.credit-card {
+
+}
+
+.lent-content h6 {
+    padding: 5px 0px;
+}
+
+.fa.fa.users{
+
+}
+
+.fa.fa.copy{
+
+}
+
+
+//*
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aqua;
+}
+
+.about {
+	width: 100%;
+	float: left;
+	
+
+}
+
+.about-one{
+	width: 50%;
+	float: left;
+	height: 600px;
+	
+
+}
+
+.about-two{
+	width: 50%;
+	float: left;
+	height: 600px;
+	
+
+}
+
+.service{
+	width: 100%;
+	float: left;
+}
+
+.service-one{
+	width: 50%;
+	background-color: green;
+	height: 550px;
+	float: left;
+
+}
+
+.service-two{
+	width: 50%;
+	background-color: blue;
+	height: 550px;
+	float: left;
+
+}
+
+.service-img{
+	width: 50%;
+	background-color: maroon;
+	height: 550px;
+	float: left;
+
+}
+
+.service-content{
+	width: 50%;
+	background-color: red;
+	height: 550px;
+	float: left;
+
+}
+
+
+.gallery{
+	width: 100%;
+	float: left;
+
+
+}
+.gallery-one {
+	width: 25%;
+	background-color: maroon;
+	height: 450px;
+	float: left;
+
+}
+
+.gallery-two {
+	width: 25%;
+	background-color: green;
+	height: 450px;
+	float: left;
+	
+}
+
+.gallery-three {
+	width: 25%;
+	background-color: pink;
+	height: 450px;
+	float: left;
+	
+}
+.gallery-four {
+	width: 25%;
+	background-color: black;
+	height: 450px;
+	float: left;
+	
+}
+
+footer {
+	width: 100%;
+	float: left;
+}
+.copyright{
+	width: 50%;
+	float: left;
+	background-color: green;
+	height: 50px;
+
+}
+
